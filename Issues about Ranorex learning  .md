@@ -6,7 +6,9 @@ Step1. Read the document about Ranorex Xpath in Ranorex user guide from the URL 
 
 Step2. Use View Spy to track the element’s path, and the specific utilization of View Spy can be found in the URL (http://www.ranorex.com/support/user-guide-20/lesson-9-ranorex-spy.html) or help in Ranorex studio.    
 
-(The element’s path should be modified manually to indentify an unique UI element. In specific situation, it may choose different attribute to mark a UI element, such as id, innertext,  text.) Step3. According to the requirement, reference similar module in the existing testcases.  
+(The element’s path should be modified manually to indentify an unique UI element. In specific situation, it may choose different attribute to mark a UI element, such as id, innertext,  text.)  
+
+Step3. According to the requirement, reference similar module in the existing testcases.  
 
 
 *  How to share a variable value between different testcases or modules?  
