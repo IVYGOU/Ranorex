@@ -1,6 +1,6 @@
 # Issues about Ranorex learning  
 
-1.	Q: How to find proper Ranorex Xpath?
+* 1.	Q: How to find proper Ranorex Xpath?
 A:
 Step1. Read the document about Ranorex Xpath in Ranorex user guide from the URL (http://www.ranorex.com/support/user-guide-20/ranorexpath.html) or help in Ranorex studio.
 Step2. Use View Spy to track the element’s path, and the specific utilization of View Spy can be found in the URL (http://www.ranorex.com/support/user-guide-20/lesson-9-ranorex-spy.html) or help in Ranorex studio. 
@@ -37,11 +37,18 @@ Step3.  In new module, create new actions and elements to realize requirements.
 Notice: Don’t create repetitive actions and elements.
 
 7.	Q: Why it runs failed now while the previous test is correct?
-A: Possible causes：
+A: Possible causes：  
+
 ①	Developers have changed the element.
-②	Loading speed is too slow.
-③	Jump out the other Windows when run testcase.
-④	The browser is not maximized.
-⑤	Input method is not set as English. 
-⑥	The window is not properly closed.
+
+②	Loading speed is too slow.  
+
+③	Jump out the other Windows when run testcase.   
+
+④	The browser is not maximized.   
+
+⑤	Input method is not set as English.   
+
+⑥	The window is not properly closed.   
+
 
