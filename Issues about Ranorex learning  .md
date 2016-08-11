@@ -11,7 +11,6 @@ Step2. Use View Spy to track the element’s path, and the specific utilization 
 
 *  How to share a variable value between different testcases or modules?  
 
-
 Step1. Create a new variable   
 
 In a key Sequence action of a module, select “As new Variable” to create a variable.   
@@ -33,22 +32,27 @@ Step3.  Run the single module.
 
 Notice: Run a single module will save a lot of time. But you must run the related testcase to ensure it could perform correctly.
 
-4.	Q: why is running a single module successful, but running the related testcase failed?
-A:  There are several elements that have the same path. So Ranorex can't find the proper one.
+* why is running a single module successful, but running the related testcase failed?  
 
-5.	Q: Which situation we need to use user code?
-A:  The existing actions of Ranorex are unable to implement requirements.
+There are several elements that have the same path. So Ranorex can't find the proper one.
 
-6.	Q: How to add new requirement in the existing testcase?
-A: 
-Step1. Figure out the function and specified realization of the existing testcase.
-Step2.  Choose specified located position of new module.
+* Which situation we need to use user code?  
+
+The existing actions of Ranorex are unable to implement requirements.
+
+* How to add new requirement in the existing testcase?
+ 
+Step1. Figure out the function and specified realization of the existing testcase.  
+
+Step2.  Choose specified located position of new module.  
+
 Step3.  In new module, create new actions and elements to realize requirements.
 
 Notice: Don’t create repetitive actions and elements.
 
-7.	Q: Why it runs failed now while the previous test is correct?
-A: Possible causes：  
+*  Why it runs failed now while the previous test is correct?  
+
+Possible causes：  
 
 ①	Developers have changed the element.
 
