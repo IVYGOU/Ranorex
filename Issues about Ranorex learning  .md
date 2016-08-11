@@ -1,23 +1,33 @@
 # Issues about Ranorex learning  
 
-* 1.	Q: How to find proper Ranorex Xpath?
-A:
-Step1. Read the document about Ranorex Xpath in Ranorex user guide from the URL (http://www.ranorex.com/support/user-guide-20/ranorexpath.html) or help in Ranorex studio.
-Step2. Use View Spy to track the element’s path, and the specific utilization of View Spy can be found in the URL (http://www.ranorex.com/support/user-guide-20/lesson-9-ranorex-spy.html) or help in Ranorex studio. 
-(The element’s path should be modified manually to indentify an unique UI element. In specific situation, it may choose different attribute to mark a UI element, such as id, innertext,  text.) Step3. According to the requirement, reference similar module in the existing testcases.
+* Q: How to find proper Ranorex Xpath?   
+A:   
 
-2.	Q: How to share a variable value between different testcases or modules?
-A: 
-Step1. Create a new variable
-In a key Sequence action of a module, select “As new Variable” to create a variable.
-Step2. Data binding
-Right-click on the testcase, you can select the “Data binding”.  In Data binding, you can create a new parameter or select the existing parameter to bound the variables in modules.  Then the bounded variables can share the value.
+Step1. Read the document about Ranorex Xpath in Ranorex user guide from the URL (http://www.ranorex.com/support/user-guide-20/ranorexpath.html) or help in Ranorex studio.   
+
+Step2. Use View Spy to track the element’s path, and the specific utilization of View Spy can be found in the URL (http://www.ranorex.com/support/user-guide-20/lesson-9-ranorex-spy.html) or help in Ranorex studio.    
+
+(The element’s path should be modified manually to indentify an unique UI element. In specific situation, it may choose different attribute to mark a UI element, such as id, innertext,  text.) Step3. According to the requirement, reference similar module in the existing testcases.  
+
+
+* Q: How to share a variable value between different testcases or modules?  
+
+A:   
+
+Step1. Create a new variable   
+
+In a key Sequence action of a module, select “As new Variable” to create a variable.   
+
+Step2. Data binding   
+
+Right-click on the testcase, you can select the “Data binding”.  In Data binding, you can create a new parameter or select the existing parameter to bound the variables in modules.  Then the bounded variables can share the value.  
+
 
 
 3.	Q: How to run a single module?
 A:  
 Step1. Ranorex is opened in the corresponding module page. 
-Step2. Click “VARIABLES” and set the corresponding value of “Domain”, such as the value is “hybris-cecenter-agenthome-ui-test-v1.us-east.modules.yaas.io”. 
+Step2. Click “VARIABLES” and set the corresponding value of “Domain”.
 Step3.  Run the single module.
 
 Notice: Run a single module will save a lot of time. But you must run the related testcase to ensure it could perform correctly.
